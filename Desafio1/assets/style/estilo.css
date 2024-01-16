@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    padding: 20px; 
+}
+
+.row {
+    text-align: center; 
+    
+}
+.titulo {
+    color: #04146c; 
+    font-size: 49pt; 
+    margin-bottom: 100px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+}
+img {
+    max-width: 100%; 
+    height: auto;
+}
+.nombre{
+    font-size: 30pt;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    color: #0a2ff1
+}
+.ocupacion{
+    font-size: 18pt;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    color: #04146c;
+}
+.frase{
+    font-size: 18pt;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #04146c;
+} 
+.link{
+    font-size: 18pt;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #04146c;
+    border: 2px solid #0a2ff1; 
+    border-radius: 5px;
+    padding: 5px 10px; 
+    text-decoration: none;
+}
+.link:hover {
+    background-color: #0a2ff1;
+    color: #fff; 
+}

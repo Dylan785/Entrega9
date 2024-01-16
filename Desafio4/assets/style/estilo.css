@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,900;1,300&display=swap');
+
+
+body {
+    margin-top: 5rem; /* Margen superior para todo el contenido */
+}
+
+.imagen {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.columna-derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; 
+  }
+
+@media (max-width: 767px) {
+    .imagen {
+        width: 100%;
+    }
+
+    .columna-derecha {
+        margin-top: 5rem;
+      }
+
+    }
+
+.btn-personalizado {
+    width: 150px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #04146c;
+    background-color: #04146c; 
+    border: none;
+}
+
+.titulo{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 900;
+    font-size: 62pt;
+    color: #04146c;
+}
+
+.texto{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+    color: #04146c;
+}
+
+.botones{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #04146c;
+    background-color: #04146c; 
+    border: none;
+}
+
+
+  
